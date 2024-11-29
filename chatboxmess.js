@@ -14,7 +14,7 @@ function sendMessage(message) {
         <span class="msg_time_send">${new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} Today</span>
     </div>
     <div class="img_cont_msg">
-        <img src="./image/s5.jpg"class="rounded-circle user_img_msg">
+        <img src="./s5.jpg"class="rounded-circle user_img_msg">
     </div>
     `;
     
