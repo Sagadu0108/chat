@@ -35,6 +35,17 @@ body,html {
     border-top: 0 !important;
 }
 
+.card-footer .input-group{
+    background: transparent;
+}
+.card-footer .send_btn {
+    transform: scale(0);
+}
+
+.card-footer:hover .send_btn {
+    transform: scale(1);
+}
+
 .container {
     align-content: center;
 }
@@ -52,21 +63,22 @@ body,html {
 }
 
 .type_msg {
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: transparent;
     border: 0 !important;
     color: white !important;
-    height: 60px !important;
+    height: 40px !important;    
     overflow-y: auto;
 }
 
 .type_msg:focus {
+  background: transparent;
   box-shadow: none !important;
   outline: 0px !important;
 }
 
 .attach_btn {
   border-radius: 15px 0 0 15px !important;
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: transparent;
   border: 0 !important;
   color: white !important;
   cursor: pointer;
@@ -74,7 +86,7 @@ body,html {
 
 .send_btn {
   border-radius: 0 15px 15px 0 !important;
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: transparent;
   border: 0 !important;
   color: white !important;
   cursor: pointer; 
@@ -185,9 +197,10 @@ body,html {
 .msg_cotainer {
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: 10px;
   margin-right: 10px;
   border-radius: 25px;
-  background-color: #82ccdd;
+  background-color: #ff3366;
   padding: 10px;
   position: relative;
 }
@@ -197,24 +210,25 @@ body,html {
   margin-bottom: auto;
   margin-right: 10px;
   border-radius: 25px;
-  background-color: #78e08f;
+  background-color: #82ccdd;
   padding: 10px;
   position: relative;
 }
 
 .msg_time {
   position: absolute;
-  left: 0;
+  left: 10px;
   bottom: -15px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #ff3366;
   font-size: 10px;
 }
 
 .msg_time_send {
   position: absolute;
-  right: 0;
-  bottom: -15px;
-  color: rgba(255, 255, 255, 0.5);
+  width: 70px;
+  top:49px;
+  right: 5px;
+  color: blue;
   font-size: 10px;
 }
 
